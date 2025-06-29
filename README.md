@@ -1,2 +1,12 @@
 # Location-Based-Messages
-This Python script checks the value of the variable loc and prints a message based on its value using if, elif, and else statements.
+loc = 'Bank'
+if loc == 'Auto Shop':
+    print("Cars are cool!")
+elif loc == 'Bank':
+    print("Money is cool!")
+elif loc == 'Store':
+    print("Welcome to the store!")
+else:
+    print("I do not know much.")
+
+    
